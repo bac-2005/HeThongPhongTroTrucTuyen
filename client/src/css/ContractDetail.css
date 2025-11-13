@@ -1,0 +1,135 @@
+.contract-detail {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.contract-detail h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contract-info,
+.room-info {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.contract-info .info-row,
+.room-info .info-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+.info-row strong {
+  min-width: 180px;
+  text-align: left;
+  color: #333;
+}
+
+.info-row span {
+  color: #555;
+}
+
+.room-info h3 {
+  color: #007bff;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.user-card {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.user-card h4 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.user-card .info-row {
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.back-button,
+.cancel-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-button {
+  background: #007bff;
+  color: #fff;
+}
+
+.cancel-button {
+  background: #dc3545;
+  color: #fff;
+}
+
+.back-button:hover {
+  background: #0056b3;
+}
+
+.cancel-button:hover {
+  background: #b02a37;
+}
+
+.cancel-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cancel-form textarea {
+  width: 100%;
+  height: 80px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.cancel-form button {
+  align-self: center;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-form button:hover {
+  background: #218838;
+}

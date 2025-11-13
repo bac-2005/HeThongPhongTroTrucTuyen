@@ -1,0 +1,84 @@
+.contracts-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+.contracts-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.contract-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+  transition: box-shadow 0.3s ease;
+}
+
+.contract-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.contract-card p {
+  margin: 8px 0;
+  color: #444;
+}
+
+.contract-card strong {
+  color: #111;
+}
+
+.status {
+  font-weight: bold;
+  padding: 2px 10px;
+  border-radius: 6px;
+  text-transform: capitalize;
+}
+
+.status.pending {
+  color: #856404;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+}
+
+.status.accepted {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.status.rejected {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+.status.ended {
+  color: #004085;
+  background-color: #d1ecf1;
+  border: 1px solid #bee5eb;
+}
+
+.view-contract-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.view-contract-button:hover {
+  background-color: #0056b3;
+}

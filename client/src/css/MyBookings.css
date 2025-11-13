@@ -1,0 +1,77 @@
+.my-bookings-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
+}
+
+.my-bookings-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.booking-list {
+  list-style: none;
+  padding: 0;
+}
+
+.booking-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.booking-item:hover {
+  background: #f8f9fa;
+}
+
+.room-image {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.booking-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.status {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status.pending { color: orange; }
+.status.accepted { color: green; }
+.status.rejected { color: red; }
+
+.actions {
+  margin-top: 8px;
+}
+
+.actions button {
+  padding: 6px 12px;
+  background: #dc3545;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.actions button:hover {
+  background: #b02a37;
+}

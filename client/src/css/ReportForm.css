@@ -1,0 +1,98 @@
+.report-form {
+  margin-top: 40px;
+  background: #fff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, sans-serif;
+}
+
+.report-form h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #222;
+  text-align: center;
+}
+
+.report-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.report-form label {
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+.report-form select,
+.report-form textarea {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  resize: vertical;
+  outline: none;
+  margin-top: 6px;
+}
+
+.report-form button {
+  align-self: flex-end;
+  padding: 12px 24px;
+  background-color: #1d51e0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.report-form button:hover {
+  background-color: #2888d1;
+}
+
+/* Lịch sử phản ánh đã gửi */
+.report-history {
+  background: #f9f9f9;
+  border: 1px dashed #ccc;
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 32px;
+}
+
+.report-history h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.report-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.report-history li {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.report-history small {
+  color: #777;
+  font-size: 13px;
+}

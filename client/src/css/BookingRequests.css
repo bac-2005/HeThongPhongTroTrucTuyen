@@ -1,0 +1,83 @@
+.booking-requests-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.booking-column {
+  flex: 1;
+  background: #f9fafc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.booking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.booking-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+.booking-item:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.room-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.booking-item-content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 18px;
+  gap: 6px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.actions button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.actions .accept {
+  background-color: #28a745;
+}
+
+.actions .accept:hover {
+  background-color: #218838;
+}
+
+.actions .reject {
+  background-color: #dc3545;
+}
+
+.actions .reject:hover {
+  background-color: #c82333;
+}

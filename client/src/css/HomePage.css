@@ -1,0 +1,30 @@
+.home-container {
+  display: flex;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  
+}
+
+.main-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.side-content {
+  flex: 1;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .side-content {
+    margin-top: 24px;
+  }
+}

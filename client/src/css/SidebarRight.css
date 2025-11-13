@@ -1,0 +1,95 @@
+.sidebar-container {
+  padding: 12px;
+  background: #fff;
+  border-radius: 12px; 
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1); 
+  font-family: Arial, sans-serif;
+  font-size: 14px; 
+  max-width: 350px; 
+}
+
+.sidebar-section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.price-area, .area-area {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.price-area > div, .area-area > div {
+  width: 50%;
+}
+
+.price-area p, .area-area p {
+  margin: 6px 0;
+  font-weight: 500;
+}
+
+.price-area span, .area-area span {
+  color: orange;
+  font-weight: bold;
+}
+
+.price-area a, .area-area a {
+  color: #222;
+  text-decoration: none;
+}
+
+.price-area a:hover, .area-area a:hover {
+  text-decoration: underline;
+}
+
+.latest-posts-title {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.post-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 12px; 
+  padding: 8px;
+  transition: background-color 0.2s ease;
+}
+.post-item:hover {
+  color: #000000;
+  background-color: #f0f6ff;
+}
+
+.post-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.post-info > div:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  max-width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-info > div:nth-child(2) {
+  font-size: 13px;
+  font-weight: 700;
+  color: #000000;
+  margin: 4px 0;
+}
+
+.post-info > div:nth-child(3) {
+  font-size: 12px;
+  color: #888;
+}

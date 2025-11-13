@@ -1,0 +1,94 @@
+{
+  "quan_tri_vien": [
+    {
+      "id": 1,
+      "ten_dang_nhap": "admin1",
+      "mat_khau": "admin123",
+      "ho_ten": "Quản trị viên 1"
+    }
+  ],
+  "nguoi_dung": [
+    {
+      "name": "Trần Thị 222B3232",
+      "email": "thib@gmail.com",
+      "role": "Chủ trọ",
+      "id": "2",
+      "createdAt": "2024-03-20"
+    },
+    {
+      "id": "3",
+      "name": "Lê Văn C",
+      "email": "vanc@gmail.com",
+      "role": "Người dùng",
+      "createdAt": "2024-03-20"
+    },
+    {
+      "id": "54f5",
+      "name": "2131232",
+      "email": "421412412",
+      "role": "Người dùng",
+      "createdAt": "2025-07-09"
+    }
+  ],
+  "phong_tro": [
+    {
+      "id": 1,
+      "tieu_de": "Phòng trọ Q1, sạch đẹp",
+      "dia_chi": "123 Lê Lợi, Q.1, TP.HCM",
+      "gia_thue": 2500000,
+      "dien_tich": 20,
+      "mo_ta": "Phòng có máy lạnh, wifi miễn phí",
+      "hinh_anh": [
+        "phong1a.jpg",
+        "phong1b.jpg"
+      ],
+      "trang_thai": "con_trong",
+      "chu_tro_id": 2
+    },
+    {
+      "id": 2,
+      "tieu_de": "Phòng trọ Gò Vấp, có gác lửng",
+      "dia_chi": "456 Quang Trung, Gò Vấp, TP.HCM",
+      "gia_thue": 1800000,
+      "dien_tich": 18,
+      "mo_ta": "Phòng rộng rãi, khu an ninh",
+      "hinh_anh": [
+        "phong2a.jpg"
+      ],
+      "trang_thai": "da_thue",
+      "chu_tro_id": 2
+    }
+  ],
+  "don_thue": [
+    {
+      "id": 1,
+      "phong_id": 1,
+      "nguoi_thue_id": 1,
+      "trang_thai": "cho_duyet",
+      "ngay_bat_dau": "2025-07-15",
+      "ngay_ket_thuc": "2025-12-15",
+      "ghi_chu": "Cần phòng cho sinh viên ở lâu dài"
+    }
+  ],
+  "danh_gia": [
+    {
+      "id": 1,
+      "phong_id": 2,
+      "nguoi_dung_id": 1,
+      "so_sao": 4,
+      "binh_luan": "Phòng sạch sẽ, chủ dễ thương",
+      "ngay_danh_gia": "2025-07-01"
+    }
+  ],
+  "khach_tham_quan": [
+    {
+      "id": 1,
+      "dia_chi_ip": "192.168.1.100",
+      "thoi_gian_truy_cap": "2025-07-09T09:00:00",
+      "phong_quan_tam": [
+        1,
+        2
+      ]
+    }
+  ]
+}
